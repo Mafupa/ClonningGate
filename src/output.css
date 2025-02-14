@@ -557,9 +557,6 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .my-auto {
-    margin-block: auto;
-  }
   .mt-\[-45px\] {
     margin-top: -45px;
   }
@@ -626,9 +623,6 @@
   .h-\[32px\] {
     height: 32px;
   }
-  .h-\[40px\] {
-    height: 40px;
-  }
   .h-\[42px\] {
     height: 42px;
   }
@@ -671,9 +665,6 @@
   .w-\[33\%\] {
     width: 33%;
   }
-  .w-\[40px\] {
-    width: 40px;
-  }
   .w-\[42px\] {
     width: 42px;
   }
@@ -689,8 +680,17 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[290px\] {
+    max-width: 290px;
+  }
+  .max-w-\[400px\] {
+    max-width: 400px;
+  }
   .max-w-\[560px\] {
     max-width: 560px;
+  }
+  .max-w-\[620px\] {
+    max-width: 620px;
   }
   .max-w-\[800px\] {
     max-width: 800px;
@@ -718,6 +718,9 @@
   }
   .justify-around {
     justify-content: space-around;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .justify-end {
     justify-content: flex-end;
@@ -757,14 +760,8 @@
   .bg-\[\#f2f2f2\] {
     background-color: #f2f2f2;
   }
-  .bg-\[red\] {
-    background-color: red;
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
-  }
-  .bg-orange-500 {
-    background-color: var(--color-orange-500);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -841,11 +838,8 @@
   .pr-\[90px\] {
     padding-right: 90px;
   }
-  .pb-\[100px\] {
-    padding-bottom: 100px;
-  }
-  .pb-\[14px\] {
-    padding-bottom: 14px;
+  .pb-\[5vh\] {
+    padding-bottom: 5vh;
   }
   .pb-\[20px\] {
     padding-bottom: 20px;
@@ -859,8 +853,11 @@
   .pb-\[50px\] {
     padding-bottom: 50px;
   }
-  .pb-\[5vh\] {
-    padding-bottom: 5vh;
+  .pb-\[100px\] {
+    padding-bottom: 100px;
+  }
+  .pb-\[14px\] {
+    padding-bottom: 14px;
   }
   .text-center {
     text-align: center;
@@ -910,6 +907,14 @@
   .text-\[62\.5\%\] {
     font-size: 62.5%;
   }
+  .leading-\[1\.16\] {
+    --tw-leading: 1.16;
+    line-height: 1.16;
+  }
+  .leading-\[1\.25\] {
+    --tw-leading: 1.25;
+    line-height: 1.25;
+  }
   .leading-\[1\.2\] {
     --tw-leading: 1.2;
     line-height: 1.2;
@@ -921,14 +926,6 @@
   .leading-\[1\.6\] {
     --tw-leading: 1.6;
     line-height: 1.6;
-  }
-  .leading-\[1\.16\] {
-    --tw-leading: 1.16;
-    line-height: 1.16;
-  }
-  .leading-\[1\.25\] {
-    --tw-leading: 1.25;
-    line-height: 1.25;
   }
   .leading-\[1\.56\] {
     --tw-leading: 1.56;
